@@ -1,0 +1,14 @@
+pluginManagement {
+   repositories {    
+      maven {
+        //url "${sunatPUrepo}libs-local-dev"
+        url "${sunatPUrepo}remote-repo-libs"
+        allowInsecureProtocol = true
+        credentials {
+            username = "${sunatPUrepoUser}"
+            password = "${sunatPUrepoPassword}"
+        }
+      }
+   }
+}
+rootProject.name = 'demo'
