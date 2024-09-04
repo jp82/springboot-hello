@@ -16,8 +16,7 @@ group = 'com.example'
 sourceCompatibility = '11'
 
 repositories {
-	mavenCentral()
-    /*  maven {
+      maven {
         //url "${sunatPUrepo}libs-local-dev"
         url "${sunatPUrepo}remote-repo-libs"
         allowInsecureProtocol = true
@@ -26,7 +25,6 @@ repositories {
             password = "${sunatPUrepoPassword}"
         }
       }
-	*/
 }
 
 dependencies {
